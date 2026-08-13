@@ -199,6 +199,11 @@ export default function HudOverlay({
           </div>
         </div>
 
+        {/* Engineering Credit in bottom center */}
+        <div style={{ position: "absolute", bottom: "12px", left: "50%", transform: "translateX(-50%)", fontSize: "0.6rem", letterSpacing: "0.15em", color: "rgba(255,255,255,0.4)", textTransform: "uppercase", fontFamily: "monospace" }}>
+          ENGINEERED BY <a href="https://www.curiouskaizer.com/" target="_blank" rel="noopener noreferrer" style={{ color: "rgba(255,255,255,0.7)", textDecoration: "underline" }} title="Curious Kaizer - Web Development Company in Delhi">CURIOUS KAIZER</a>
+        </div>
+
         {/* Mouse coordinates tracking in bottom right */}
         <div className="hud-coordinates" onMouseEnter={playHoverSound}>
           <div className="coordinate-block">
